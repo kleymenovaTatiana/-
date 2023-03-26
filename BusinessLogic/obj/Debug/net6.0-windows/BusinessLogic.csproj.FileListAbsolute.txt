@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Танюша\BusinessLogic\bin\Debug\net6.0-windows\BusinessLogic.deps.json
+C:\Users\user\Desktop\Танюша\BusinessLogic\bin\Debug\net6.0-windows\BusinessLogic.dll
+C:\Users\user\Desktop\Танюша\BusinessLogic\bin\Debug\net6.0-windows\ref\BusinessLogic.dll
+C:\Users\user\Desktop\Танюша\BusinessLogic\bin\Debug\net6.0-windows\BusinessLogic.pdb
+C:\Users\user\Desktop\Танюша\BusinessLogic\obj\Debug\net6.0-windows\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Танюша\BusinessLogic\obj\Debug\net6.0-windows\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Танюша\BusinessLogic\obj\Debug\net6.0-windows\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Танюша\BusinessLogic\obj\Debug\net6.0-windows\BusinessLogic.AssemblyInfo.cs
+C:\Users\user\Desktop\Танюша\BusinessLogic\obj\Debug\net6.0-windows\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Танюша\BusinessLogic\obj\Debug\net6.0-windows\BusinessLogic.dll
+C:\Users\user\Desktop\Танюша\BusinessLogic\obj\Debug\net6.0-windows\ref\BusinessLogic.dll
+C:\Users\user\Desktop\Танюша\BusinessLogic\obj\Debug\net6.0-windows\BusinessLogic.pdb
+C:\Users\user\Desktop\Танюша\BusinessLogic\bin\Debug\net6.0-windows\DataAccess.dll
+C:\Users\user\Desktop\Танюша\BusinessLogic\bin\Debug\net6.0-windows\DataAccess.pdb
+C:\Users\user\Desktop\Танюша\BusinessLogic\obj\Debug\net6.0-windows\BusinessLogic.csproj.CopyComplete
