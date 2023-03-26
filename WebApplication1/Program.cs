@@ -1,3 +1,12 @@
+using System.Reflection;
+using Domain.Interfaces;
+using BusinessLogic.Services;
+using Domain.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
+using DataAccess.Wrapper;
+
 namespace WebApplication1
 {
     public class Program
@@ -6,6 +15,12 @@ namespace WebApplication1
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddDbContext<Практика10Context>(
+                optionsAction: options => options.UseSqlServer(
+                     connectionString:"Server= LAB116-P ;Database= Практика 10 ;User Id= sa ;Password= 12345 ;"));
+
+            builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+            builder.Services.AddScoped<IUserService, UserService>();
             // Add services to the container.
 
             builder.Services.AddControllers();
