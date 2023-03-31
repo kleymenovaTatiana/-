@@ -10,6 +10,7 @@ namespace Domain.Interfaces
     public interface IRepositoryWrapper
     {
         IUserRepository Customer { get; }
+
         Task Save();
     }
 }
