@@ -40,3 +40,17 @@ C:\Users\user\Desktop\Практика\Domain\obj\Debug\net6.0\refint\Domain.dll
 C:\Users\user\Desktop\Практика\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\user\Desktop\Практика\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
 C:\Users\user\Desktop\Практика\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\Практика\5\Практика\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Практика\5\Практика\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+D:\Практика\5\Практика\Domain\bin\Debug\net6.0\Domain.dll
+D:\Практика\5\Практика\Domain\bin\Debug\net6.0\Domain.pdb
+D:\Практика\5\Практика\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Практика\5\Практика\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Практика\5\Практика\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Практика\5\Практика\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Практика\5\Практика\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Практика\5\Практика\Domain\obj\Debug\net6.0\Domain.dll
+D:\Практика\5\Практика\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\Практика\5\Практика\Domain\obj\Debug\net6.0\Domain.pdb
+D:\Практика\5\Практика\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+D:\Практика\5\Практика\Domain\obj\Debug\net6.0\ref\Domain.dll
