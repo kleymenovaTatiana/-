@@ -2031,20 +2031,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Практика\\--main\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Практика\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\user\\Desktop\\Практика\\--main\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Практика\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Практика\\--main\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Практика\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2057,8 +2062,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\Практика\\--main\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Практика\\--main\\Domain\\Domain.csproj"
+            "C:\\Users\\user\\Desktop\\Практика\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\Практика\\Domain\\Domain.csproj"
             }
           }
         }
@@ -2100,7 +2105,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
