@@ -87,11 +87,11 @@ namespace WebApplication1.Controllers
         ///     
         ///     POST /Todo
         ///     {
-        ///        "ClieNtCode" : "4",
+        ///        "ClieNtCode" : "0",
         ///        "Nickname" : "Sea",
-        ///        "Password" : "98745",
-        ///        "Surname" : "Polyakova",
-        ///        "Name" : "Sofia",
+        ///        "Password" : "745",
+        ///        "Surname" : "Sofia",
+        ///        "Name" : "Polyakova",
         ///        "Middle_name" : "Grigorievna",
         ///        "Mail" : "house@mail.ru",
         ///        "Phone_number" : "79830040",
