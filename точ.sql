@@ -24,6 +24,22 @@ Article_number int not null,
 Number_in_clade int not null
 foreign key(Category_id) references Category(Category_id)
 )
+
+insert into Products1
+(
+ltem_number,
+Category_id,
+Title,
+Cost,
+Description,
+Article_number,
+Number_in_clade
+)
+values
+('11','111','dry_food','1130','adult dog food','1234567','21'),
+('22','222','dry_food','1733','cat food','1460123','22'),
+('33','333','feed','233','for goldfish','1951699','23')
+
 create table Basket_Buyer
 (
 id_user int,
@@ -45,6 +61,24 @@ Mail nvarchar(50) not null,
 Phone_number nvarchar(25) not null,
 Birthdate date not null
 )
+
+insert into Customers
+(
+ClieNt_code,
+Nickname,
+Password,
+Surname,
+Name,
+Middle_name,
+Mail,
+Phone_number,
+Birthdate
+)
+values
+('1','Sun','12345','Yakovleva','Olga','Petrovna','aquapark@mail.ru','78066133','2006-09-20'),
+('2','Cat','54321','Zhuravleva','Evgeniya','Glebovna','dog@mail.ru','75003718','1990-05-23'),
+('3','Fish','78945','Maximov','Timofey','Romanovich','car@mail.ru','76880794','1993-02-02')
+
 Create table Staff
 (
 Employee_code int primary key,
@@ -65,13 +99,18 @@ toys nvarchar(50) not null,
 Bowls nvarchar(50) not null,
 aquariums nvarchar(50) not null,
 foreign key(Category_id) references Category(Category_id)
-
 )
 create table Category
 (
 Category_id int primary key,
-For_dogs nvarchar(50) not null,
-For_cats nvarchar(50) not null,
-Aquariums nvarchar(50) not null,
-For_birds nvarchar(50) not null
-) 
+Category_name nvarchar(50) not null
+)
+insert into Category
+(
+Category_id,
+Category_name
+)
+values
+('111','For_dogs'),
+('222','For_cats'),
+('333','Aquariums')
