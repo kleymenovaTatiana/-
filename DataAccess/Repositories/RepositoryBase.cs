@@ -9,12 +9,14 @@ using Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using DataAccess.Models;
 
-namespace DataAccess.Repositories  
+
+
+namespace DataAccess.Repositories
 {
     public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
-        protected Практика10Context RepositoryContext { get; set; }
-        public RepositoryBase(Практика10Context repositoryContext)
+        protected ПрактикаЛContext RepositoryContext { get; set; }
+        public RepositoryBase(ПрактикаЛContext repositoryContext)
         {
             RepositoryContext = repositoryContext;
         }
