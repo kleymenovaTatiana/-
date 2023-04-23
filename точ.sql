@@ -13,6 +13,21 @@ foreign key(id_user) references Customers(ClieNt_code),
 foreign key(ltem_number) references Products1(ltem_number),
 foreign key(Employee_Code) references Staff(Employee_code)
 )
+insert into Orders
+(
+Order_code,
+id_user,
+ltem_number,
+Employee_Code,
+Date_and_time,
+Status,
+Quantity,
+Delivery_method
+)
+values
+('98','1','11','4',(convert(datetime,'1900-01-01T23:59:59 PM')),'sending','500','pickup'),
+('88','2','22','5',(convert(datetime,'1900-01-01T20:59:59 PM')),'poluchin','459','courier'),
+('87','3','33','6',(convert(datetime,'1900-01-01T21:59:59 PM')),'treatment','1000','mail')
 create table Products1
 (
 ltem_number int primary key,
@@ -49,6 +64,16 @@ primary key(id_user,ltem_number),
 foreign key(id_user) references Customers(ClieNt_code),
 foreign key(ltem_number) references Products1(ltem_number)
 )
+insert into Basket_Buyer
+(
+id_user,
+ltem_number,
+Quantity
+)
+values
+('1','11','500'),
+('2','22','459'),
+('3','33','1000')
 Create table Customers
 (
 ClieNt_code int primary key,
@@ -91,6 +116,22 @@ Mail nvarchar(50) not null,
 Phone_number nvarchar(25) not null,
 Birthdate date not null
 )
+insert into Staff
+(
+Employee_code,
+Nickname,
+Password,
+Surname,
+Namee,
+Middle_name,
+Mail,
+Phone_number,
+Birthdate
+)
+values
+('4','bird','97145','Vavilova','Arina','Vladimirovna','ala@mail.ru','72563929','1978-01-11'),
+('5','lion','11631','Latyshev','Grigory','Tikhonovich','mana@mail.ru','72921454','1979-05-12'),
+('6','mouse','81010','Pavlova','Sofya','Mironovna','mime@mail.ru','74725939','1974-11-11')
 create table filter
 (
 Category_id int primary key,
@@ -100,6 +141,19 @@ Bowls nvarchar(50) not null,
 aquariums nvarchar(50) not null,
 foreign key(Category_id) references Category(Category_id)
 )
+insert into filter
+(
+Category_id,
+Feed,
+toys,
+Bowls,
+aquariums
+)
+values
+('111','Royal_Canin','Tappi','Moderna','No'),
+('222','Purina','Papillon','Yami','No'),
+('333','Cliffi','No','Tetra','Benelux')
+
 create table Category
 (
 Category_id int primary key,
@@ -113,4 +167,4 @@ Category_name
 values
 ('111','For_dogs'),
 ('222','For_cats'),
-('333','Aquariums')
+('333','For_fish')
