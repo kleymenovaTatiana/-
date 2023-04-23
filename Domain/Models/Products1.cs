@@ -1,6 +1,6 @@
-﻿using System;
+﻿using DataAccess.Models;
+using System;
 using System.Collections.Generic;
-
 
 namespace Domain.Models
 {
@@ -12,7 +12,7 @@ namespace Domain.Models
             Orders = new HashSet<Order>();
         }
 
-        public int LtemNumber { get; set; }
+        public int LtemNumber { get; set; } 
         public int CategoryId { get; set; }
         public string Title { get; set; } = null!;
         public decimal Cost { get; set; }

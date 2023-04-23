@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Domain.Models;
+using System;
 using System.Collections.Generic;
 
-namespace Domain.Models
+namespace DataAccess.Models
 {
     public partial class Customer
     {

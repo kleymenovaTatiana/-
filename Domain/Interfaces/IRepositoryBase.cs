@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Linq.Expressions;
 using Domain.Models;
 
-namespace Domain.Interfaces 
+namespace Domain.Interfaces
 {
     public interface IRepositoryBase<T>
     {

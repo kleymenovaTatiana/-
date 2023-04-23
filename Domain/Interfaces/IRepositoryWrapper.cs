@@ -9,8 +9,13 @@ namespace Domain.Interfaces
 {
     public interface IRepositoryWrapper
     {
-        IUserRepository Customer { get; }
-
+        ICustomersRepository Customer { get; }
+        IBasket_BuyerRepository BasketBuyer { get; }
+        ICategoryRepository Category { get; }
+        IfilterRepository Filter { get; }
+        IOrderRepository Order { get; }
+        IProducts1Repository Produts1 { get; }
+        IStaffrRepository Staff { get; }
         Task Save();
     }
 }
