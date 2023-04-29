@@ -76,7 +76,7 @@
                 
                 POST /Todo
                 {
-                   "categoryName": "string",
+                   "categoryName": "For_hamsters",
                 }
             </remarks>
             <param name="сategory">Категория</param>
@@ -92,7 +92,7 @@
                 POST /Todo
                 {
                    "categoryId": 0,
-                   "categoryName": "string",
+                   "categoryName": "For_turtles",
                 }
             </remarks>
             <param name="сategory">Категория</param>
@@ -187,10 +187,10 @@
                 
                 POST /Todo
                 {
-                   "feed": "string",
-                   "toys": "string",
-                   "bowls": "string",
-                   "aquariums": "string"
+                   "feed": "Yami",
+                   "toys": "Tetra",
+                   "bowls": "No",
+                   "aquariums": "Moderna"
                 }
             </remarks>
             <param name="filter">Фильтер</param>
@@ -205,11 +205,11 @@
                 
                 POST /Todo
                 {
-                   "categoryId": 0,
-                   "feed": "string",
-                   "toys": "string",
-                   "bowls": "string",
-                   "aquariums": "string"
+                   "categoryId": 111,
+                   "feed": "Purina",
+                   "toys": "Tappi",
+                   "bowls": "Yami",
+                   "aquariums": "No"
                 }
             </remarks>
             <param name="filter">Фильтер</param>
@@ -242,13 +242,13 @@
                 
                 POST /Todo
                 {
-                   "idUser": 0,
-                   "ltemNumber": 0,
-                   "employeeCode": 0,
+                   "idUser": 42,
+                   "ltemNumber": 2,
+                   "employeeCode": 22,
                    "dateAndTime": "2023-04-23T18:33:32.555Z",
-                   "status": "string",
-                   "quantity": 0,
-                   "deliveryMethod": "string"
+                   "status": "poluchin",
+                   "quantity": 3,
+                   "deliveryMethod": "pickup"
                 }
             </remarks>
             <param name="order">Заказ</param> 
@@ -263,14 +263,14 @@
                 
                 POST /Todo
                 {
-                   "orderCode": 0,
-                   "idUser": 0,
-                   "ltemNumber": 0,
-                   "employeeCode": 0,
+                   "orderCode": 98,
+                   "idUser": 1,
+                   "ltemNumber": 11,
+                   "employeeCode": 4,
                    "dateAndTime": "2023-04-23T18:33:32.555Z",
-                   "status": "string",
-                   "quantity": 0,
-                   "deliveryMethod": "string"
+                   "status": "poluchin",
+                   "quantity": 1000,
+                   "deliveryMethod": "mail"
                 }
             </remarks>
             <param name="order">Заказ</param> 
@@ -303,12 +303,12 @@
                 
                 POST /Todo
                 {
-                   "categoryId": 0,
-                   "title": "string",
-                   "cost": 0,
-                   "description": "string",
-                   "articleNumber": 0,
-                   "numberInClade": 0
+                   "categoryId": 222,
+                   "title": "dry",
+                   "cost": 65,
+                   "description": "cat food",
+                   "articleNumber": 2460123,
+                   "numberInClade": 24
                 }
             </remarks>
             <param name="products1">Товары</param> 
@@ -323,13 +323,13 @@
                 
                 POST /Todo
                 {
-                   "ltemNumber": 0,
-                   "categoryId": 0,
-                   "title": "string",
-                   "cost": 0,
-                   "description": "string",
-                   "articleNumber": 0,
-                   "numberInClade": 0
+                   "ltemNumber": 11,
+                   "categoryId": 111,
+                   "title": "feed",
+                   "cost": 56,
+                   "description": "cat food",
+                   "articleNumber": 1951699,
+                   "numberInClade": 22
                 }
             </remarks>
             <param name="products1">Товары</param> 
@@ -362,13 +362,13 @@
                 
                 POST /Todo
                 {
-                   "nickname": "string",
-                   "password": "string",
-                   "surname": "string",
-                   "namee": "string",
-                   "middleName": "string",
-                   "mail": "string",
-                   "phoneNumber": "string",
+                   "nickname": "mo",
+                   "password": "11631",
+                   "surname": "Vavilova",
+                   "namee": "Sofya",
+                   "middleName": "Vladimirovna",
+                   "mail": "ala@mail.ru",
+                   "phoneNumber": "74725939",
                    "birthdate": "2023-04-23T19:02:00.758Z"
                 }
             </remarks>
@@ -384,14 +384,14 @@
                 
                 POST /Todo
                 {
-                   "employeeCode": 0,
-                   "nickname": "string",
-                   "password": "string",
-                   "surname": "string",
-                   "namee": "string",
-                   "middleName": "string",
-                   "mail": "string",
-                   "phoneNumber": "string",
+                   "employeeCode": 4,
+                   "nickname": "li",
+                   "password": "11631",
+                   "surname": "Pavlova",
+                   "namee": "Arina",
+                   "middleName": "Mironovna",
+                   "mail": "mana@mail.ru",
+                   "phoneNumber": "72563929",
                    "birthdate": "2023-04-23T19:02:00.758Z"
                 }
             </remarks>
