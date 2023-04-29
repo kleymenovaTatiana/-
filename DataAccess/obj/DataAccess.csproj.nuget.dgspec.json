@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\DataAccess\\DataAccess.csproj": {}
+    "E:\\Практика дома\\WebApplication2\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\DataAccess\\DataAccess.csproj": {
+    "E:\\Практика дома\\WebApplication2\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "E:\\Практика дома\\WebApplication2\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\DataAccess\\DataAccess.csproj",
+        "projectPath": "E:\\Практика дома\\WebApplication2\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Админ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\DataAccess\\obj\\",
+        "outputPath": "E:\\Практика дома\\WebApplication2\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\Domain\\Domain.csproj"
+              "E:\\Практика дома\\WebApplication2\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Практика дома\\WebApplication2\\Domain\\Domain.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\Domain\\Domain.csproj": {
+    "E:\\Практика дома\\WebApplication2\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Практика дома\\WebApplication2\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\Domain\\Domain.csproj",
+        "projectPath": "E:\\Практика дома\\WebApplication2\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Админ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\Domain\\obj\\",
+        "outputPath": "E:\\Практика дома\\WebApplication2\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
