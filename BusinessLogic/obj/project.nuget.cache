@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8/qrtkHopxegLNTwx9UkEvFlI+AKfilbl3Zfd9R0CHsZAb/8tae19r77ZRpw8RzvfmPsT8dJZJHcytK7GCQ9Cw==",
+  "dgSpecHash": "zWOnu7jKBV4dvkdpP7wOU+eCYIHANhNIVLfM9m85yoRtpk40zwUyGRw37go5GsdfcB8tXCtKfA62oc7cA6IBUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\BusinessLogic\\BusinessLogic.csproj",
+  "projectFilePath": "E:\\Практика дома\\WebApplication2\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Админ\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.14\\microsoft.entityframeworkcore.6.0.14.nupkg.sha512",
     "C:\\Users\\Админ\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.14\\microsoft.entityframeworkcore.abstractions.6.0.14.nupkg.sha512",
