@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fV9RENGgw+b/Hfd6R9hXvGGnt+icUy+ZvjJXeSRXqOd5O9DrLlRwVSqTBMOo8q6NrV3lIB5Nnl9y133Ze3OebA==",
+  "dgSpecHash": "TGoXxTF40WtXGso62hH7WCFYs1+QXjHzjZktjuTRoRkpnXN9BLKe18tSVWQDQbCthdDeXgSJf4HO/e8pCuPFXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\Практика дома\\WebApplication2\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Админ\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.14\\microsoft.entityframeworkcore.6.0.14.nupkg.sha512",
     "C:\\Users\\Админ\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.14\\microsoft.entityframeworkcore.abstractions.6.0.14.nupkg.sha512",
