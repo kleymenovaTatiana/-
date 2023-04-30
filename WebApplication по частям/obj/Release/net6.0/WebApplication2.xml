@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication2</name>
+    </assembly>
+    <members>
+        <member name="P:WebApplication2.Contracts.Filter.CreateFilterRequest.Feed">
+            Создание
+        </member>
+        <member name="M:WebApplication2.Controllers.BasketBuyerController.GetAll">
+            <summary>
+            Получение количества
+            </summary>
+            <param name="basketBuyer">Корзина покупателя</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.BasketBuyerController.GetById(System.Int32)">
+            <summary>
+            Получение количества по его id
+            </summary>
+            <param name="basketBuyer">Корзина покупателя</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.BasketBuyerController.Add(WebApplication2.Contracts.BasketBuyer.CreateBasketBuyerRequest)">
+            <summary>
+            Создание нового заказа
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "ltemNumber": 11,
+                   "quantity": 40,
+                }
+            </remarks>
+            <param name="basket_Buyer">Корзина покупателя</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.BasketBuyerController.Update(WebApplication2.Contracts.BasketBuyer.UpdateBasketBuyer)">
+            <summary>
+            Обновить заказа
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "idUser": 1,
+                   "ltemNumber": 11,
+                   "quantity": 50,
+                }
+            </remarks>
+            <param name="basket_Buyer">Корзина покупателя</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.BasketBuyerController.Delete(System.Int32)">
+            <summary>
+            Удалить заказ из корзины 
+            </summary>
+            <param name="basket_Buyer">Корзина покупателя</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.CategoryController.GetAll">
+            <summary>
+            Получение категории товара
+            </summary>
+            <param name="сategory">Категория</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.CategoryController.GetById(System.Int32)">
+            <summary>
+            Получение категории по его id
+            </summary>
+            <param name="сategory">Категория</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.CategoryController.Add(WebApplication2.Contracts.Category.CreateCategoryRequest)">
+            <summary>
+            Создание новой категории 
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "categoryName": "For_hamsters",
+                }
+            </remarks>
+            <param name="сategory">Категория</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.CategoryController.Update(WebApplication2.Contracts.Category.UpdateCategory)">
+            <summary>
+            Обновить категорию  
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "categoryId": 0,
+                   "categoryName": "For_turtles",
+                }
+            </remarks>
+            <param name="сategory">Категория</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.CategoryController.Delete(System.Int32)">
+            <summary>
+            Удалить категорию
+            </summary>
+            <param name="сategory">Категория</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.CustomerController.GetAll">
+            <summary>
+            Получение списка всех пользователей БД
+            </summary>
+            <param name="customer">Пользователь</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.CustomerController.GetById(System.Int32)">
+            <summary>
+            Получение пользователя по его id
+            </summary>
+            <param name="customer">Пользователь</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.CustomerController.Add(WebApplication2.Contracts.Customer.CreateCustomerRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "Nickname" : "Sea",
+                   "Password" : "98745",
+                   "Surname" : "Polyakova",
+                   "Name" : "Sofia",
+                   "Middle_name" : "Grigorievna",
+                   "Mail" : "house@mail.ru",
+                   "Phone_number" : "79830040",
+                   "Birthdate" : "2023-04-23T15:01:57.672Z",
+                }
+            </remarks>
+            <param name="customer">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.CustomerController.Update(WebApplication2.Contracts.Customer.UpdateCustomer)">
+            <summary>
+            Обновить пользователя
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "ClieNtCode" : "0",
+                   "Nickname" : "Sea",
+                   "Password" : "745",
+                   "Surname" : "Sofia",
+                   "Name" : "Polyakova",
+                   "Middle_name" : "Grigorievna",
+                   "Mail" : "house@mail.ru",
+                   "Phone_number" : "79830040",
+                   "Birthdate" : "2023-04-23T15:01:57.672Z",
+                }
+            </remarks>
+            <param name="customer">Пользователь</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.CustomerController.Delete(System.Int32)">
+            <summary>
+            Удалить пользователя 
+            </summary>
+            <param name="customer">Пользователь</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.FilterController.GetAll">
+            <summary>
+            Просмотор фильтра
+            </summary>
+            <param name="filter">Фильтер</param> 
+        </member>
+        <member name="M:WebApplication2.Controllers.FilterController.GetById(System.Int32)">
+            <summary>
+            Получение пользователя по его id
+            </summary>
+            <param name="filter">Фильтер</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.FilterController.Add(WebApplication2.Contracts.Filter.CreateFilterRequest)">
+            <summary>
+            Создание нового товара в фильтре
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "feed": "Yami",
+                   "toys": "Tetra",
+                   "bowls": "No",
+                   "aquariums": "Moderna"
+                }
+            </remarks>
+            <param name="filter">Фильтер</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.FilterController.Update(WebApplication2.Contracts.Filter.UpdateFilter)">
+            <summary>
+            Обновить товара в фильтре
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "categoryId": 111,
+                   "feed": "Purina",
+                   "toys": "Tappi",
+                   "bowls": "Yami",
+                   "aquariums": "No"
+                }
+            </remarks>
+            <param name="filter">Фильтер</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.FilterController.Delete(System.Int32)">
+            <summary>
+            Удалить товар в фильтре
+            </summary>
+            <param name="filter">Фильтер</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.OrderController.GetAll">
+            <summary>
+            Просмотор заказов
+            </summary>
+            <param name="order">Заказ</param> 
+        </member>
+        <member name="M:WebApplication2.Controllers.OrderController.GetById(System.Int32)">
+            <summary>
+            Получение заказа по его коду
+            </summary>
+            <param name="order">Заказ</param> 
+        </member>
+        <member name="M:WebApplication2.Controllers.OrderController.Add(WebApplication2.Contracts.Order.CreateOrderRequest)">
+            <summary>
+            Создание нового заказа
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "idUser": 42,
+                   "ltemNumber": 2,
+                   "employeeCode": 22,
+                   "dateAndTime": "2023-04-23T18:33:32.555Z",
+                   "status": "poluchin",
+                   "quantity": 3,
+                   "deliveryMethod": "pickup"
+                }
+            </remarks>
+            <param name="order">Заказ</param> 
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.OrderController.Update(WebApplication2.Contracts.Order.UpdateOrder)">
+            <summary>
+            Обновить заказ
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "orderCode": 98,
+                   "idUser": 1,
+                   "ltemNumber": 11,
+                   "employeeCode": 4,
+                   "dateAndTime": "2023-04-23T18:33:32.555Z",
+                   "status": "poluchin",
+                   "quantity": 1000,
+                   "deliveryMethod": "mail"
+                }
+            </remarks>
+            <param name="order">Заказ</param> 
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.OrderController.Delete(System.Int32)">
+            <summary>
+            Удалить заказ
+            </summary>
+            <param name="order">Заказ</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.Products1Controller.GetAll">
+            <summary>
+            Просмотор товаров
+            </summary>
+            <param name="products1">Товары</param> 
+        </member>
+        <member name="M:WebApplication2.Controllers.Products1Controller.GetById(System.Int32)">
+            <summary>
+            Получение товара по его номеру
+            </summary>
+            <param name="products1">Товары</param> 
+        </member>
+        <member name="M:WebApplication2.Controllers.Products1Controller.Add(WebApplication2.Contracts.Products1.CreateProducts1Request)">
+            <summary>
+            Создание нового товара
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "categoryId": 222,
+                   "title": "dry",
+                   "cost": 65,
+                   "description": "cat food",
+                   "articleNumber": 2460123,
+                   "numberInClade": 24
+                }
+            </remarks>
+            <param name="products1">Товары</param> 
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.Products1Controller.Update(WebApplication2.Contracts.Products1.UpdateProducts1)">
+            <summary>
+            Обновление товара
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "ltemNumber": 11,
+                   "categoryId": 111,
+                   "title": "feed",
+                   "cost": 56,
+                   "description": "cat food",
+                   "articleNumber": 1951699,
+                   "numberInClade": 22
+                }
+            </remarks>
+            <param name="products1">Товары</param> 
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.Products1Controller.Delete(System.Int32)">
+            <summary>
+            Удалить товар
+            </summary>
+            <param name="products1">Товары</param> 
+        </member>
+        <member name="M:WebApplication2.Controllers.staffController.GetAll">
+            <summary>
+            Получение списка всего персонала БД
+            </summary>
+            <param name="staff">Персонал</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.staffController.GetById(System.Int32)">
+            <summary>
+            Получение персонала по его id
+            </summary>
+            <param name="staff">Персонал</param>
+        </member>
+        <member name="M:WebApplication2.Controllers.staffController.Add(WebApplication2.Contracts.staff.CreatestaffRequest)">
+            <summary>
+            Создание нового персонала
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "nickname": "mo",
+                   "password": "11631",
+                   "surname": "Vavilova",
+                   "namee": "Sofya",
+                   "middleName": "Vladimirovna",
+                   "mail": "ala@mail.ru",
+                   "phoneNumber": "74725939",
+                   "birthdate": "2023-04-23T19:02:00.758Z"
+                }
+            </remarks>
+            <param name="staff">Персонал</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.staffController.Update(WebApplication2.Contracts.staff.Updatestaff)">
+            <summary>
+            Обновиление персонала
+            </summary>
+            <remarks>
+            Пример запроса:
+                
+                POST /Todo
+                {
+                   "employeeCode": 4,
+                   "nickname": "li",
+                   "password": "11631",
+                   "surname": "Pavlova",
+                   "namee": "Arina",
+                   "middleName": "Mironovna",
+                   "mail": "mana@mail.ru",
+                   "phoneNumber": "72563929",
+                   "birthdate": "2023-04-23T19:02:00.758Z"
+                }
+            </remarks>
+            <param name="staff">Персонал</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.staffController.Delete(System.Int32)">
+            <summary>
+            Удалить персонал
+            </summary>
+            <param name="staff">Персонал</param>
+        </member>
+    </members>
+</doc>

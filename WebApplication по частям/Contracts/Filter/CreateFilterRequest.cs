@@ -2,6 +2,7 @@
 {
     public class CreateFilterRequest
     {
+        ///Создание
         public string Feed { get; set; } = null!;
         public string Toys { get; set; } = null!;
         public string Bowls { get; set; } = null!;

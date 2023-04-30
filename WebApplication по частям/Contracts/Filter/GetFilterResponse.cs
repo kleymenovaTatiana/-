@@ -2,6 +2,7 @@
 {
     public class GetFilterResponse
     {
+        //добавить
         public int CategoryId { get; set; }
         public string Feed { get; set; } = null!;
         public string Toys { get; set; } = null!;
