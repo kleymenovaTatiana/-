@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lVnc5z0Bo94Fgfp84t6D5Gn8s4X5522ETsZB7AMg/4qt08bA8gXYwnF2Ls8wCNAa5m3XhqITtpHLeWbFDCW27g==",
+  "dgSpecHash": "7ox1Y01X6beagsINcImjbArBL6tZZ8kHSNIP1bSkhx078sNMRoplpDNSMJviUs4sLD5nULhK4tHjdOV1JUz1iA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Админ\\Desktop\\Практика дома\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+  "projectFilePath": "E:\\Практика дома\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Админ\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Админ\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
