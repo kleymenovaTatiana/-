@@ -9,13 +9,8 @@ on:
     - '**.csproj'
     
 jobs:
-  build-and-test:
-
-    name: build-and-test-${{matrix.os}}
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [windows-latest]
+  build:
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
