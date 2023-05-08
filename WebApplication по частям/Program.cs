@@ -18,7 +18,7 @@ namespace WebApplication2
 
             builder.Services.AddDbContext<ПрактикаЛContext>(
                 optionsAction: options => options.UseSqlServer(
-                     connectionString: "Server= DESKTOP-5D8QF5G ;Database= ПрактикаЛ1 ;Trusted_Connection=True"));
+                     connectionString: "Server= DESKTOP-5D8QF5G ;Database= ПрактикаЛ ;Trusted_Connection=True"));
 
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<ICustomerService, CustomerService>();
