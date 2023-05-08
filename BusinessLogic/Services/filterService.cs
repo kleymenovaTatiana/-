@@ -28,8 +28,18 @@ namespace BusinessLogic.Services
         }
         public async Task Create(Filter model)
         {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+
+            if (string.IsNullOrEmpty(model.Feed))
+            {
+                throw new ArgumentException(nameof(model.Feed));
+            }
+
             await _repositoryWrapper.Filter.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
         public async Task Update(Filter model)
         {

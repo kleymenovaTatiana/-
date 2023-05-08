@@ -1,0 +1,15 @@
+E:\Практика дома\WebApplication2\BusinessLogic\bin\Release\net6.0\BusinessLogic.deps.json
+E:\Практика дома\WebApplication2\BusinessLogic\bin\Release\net6.0\BusinessLogic.dll
+E:\Практика дома\WebApplication2\BusinessLogic\bin\Release\net6.0\BusinessLogic.pdb
+E:\Практика дома\WebApplication2\BusinessLogic\bin\Release\net6.0\Domain.dll
+E:\Практика дома\WebApplication2\BusinessLogic\bin\Release\net6.0\Domain.pdb
+E:\Практика дома\WebApplication2\BusinessLogic\obj\Release\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+E:\Практика дома\WebApplication2\BusinessLogic\obj\Release\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Практика дома\WebApplication2\BusinessLogic\obj\Release\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+E:\Практика дома\WebApplication2\BusinessLogic\obj\Release\net6.0\BusinessLogic.AssemblyInfo.cs
+E:\Практика дома\WebApplication2\BusinessLogic\obj\Release\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Практика дома\WebApplication2\BusinessLogic\obj\Release\net6.0\BusinessLogic.csproj.CopyComplete
+E:\Практика дома\WebApplication2\BusinessLogic\obj\Release\net6.0\BusinessLogic.dll
+E:\Практика дома\WebApplication2\BusinessLogic\obj\Release\net6.0\refint\BusinessLogic.dll
+E:\Практика дома\WebApplication2\BusinessLogic\obj\Release\net6.0\BusinessLogic.pdb
+E:\Практика дома\WebApplication2\BusinessLogic\obj\Release\net6.0\ref\BusinessLogic.dll

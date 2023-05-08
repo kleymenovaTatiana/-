@@ -28,8 +28,13 @@ namespace BusinessLogic.Services
         }
         public async Task Create(BasketBuyer model)
         {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+
             await _repositoryWrapper.BasketBuyer.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
         public async Task Update(BasketBuyer model)
         {

@@ -28,8 +28,18 @@ namespace BusinessLogic.Services
         }
         public async Task Create(Order model)
         {
-            await _repositoryWrapper.Order.Create(model);
-            _repositoryWrapper.Save();
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+
+            if (string.IsNullOrEmpty(model.Status))
+            {
+                throw new ArgumentException(nameof(model.Status));
+            }
+
+            await _repositoryWrapper.Order.Create(model); 
+            await _repositoryWrapper.Save();
         }
         public async Task Update(Order model)
         {
