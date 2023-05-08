@@ -1,0 +1,61 @@
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\BotPetShop.exe
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\BotPetShop.deps.json
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\BotPetShop.runtimeconfig.json
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\BotPetShop.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\BotPetShop.pdb
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Telegram.Bot.dll
+E:\Практика дома\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.csproj.AssemblyReference.cache
+E:\Практика дома\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.GeneratedMSBuildEditorConfig.editorconfig
+E:\Практика дома\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.AssemblyInfoInputs.cache
+E:\Практика дома\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.AssemblyInfo.cs
+E:\Практика дома\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.csproj.CoreCompileInputs.cache
+E:\Практика дома\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.csproj.CopyComplete
+E:\Практика дома\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.dll
+E:\Практика дома\BotPetShop\BotPetShop\obj\Debug\net6.0\refint\BotPetShop.dll
+E:\Практика дома\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.pdb
+E:\Практика дома\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.genruntimeconfig.cache
+E:\Практика дома\BotPetShop\BotPetShop\obj\Debug\net6.0\ref\BotPetShop.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\BotPetShop.exe
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\BotPetShop.deps.json
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\BotPetShop.runtimeconfig.json
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\BotPetShop.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\BotPetShop.pdb
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Telegram.Bot.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.AssemblyInfo.cs
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.csproj.CopyComplete
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\obj\Debug\net6.0\refint\BotPetShop.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.pdb
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\obj\Debug\net6.0\BotPetShop.genruntimeconfig.cache
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\obj\Debug\net6.0\ref\BotPetShop.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Domain.dll
+C:\Users\user\Desktop\Практика\BotPetShop\BotPetShop\bin\Debug\net6.0\Domain.pdb
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Domain.dll
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\Domain.pdb
+E:\Практика дома\BotPetShop\BotPetShop\bin\Debug\net6.0\AjaxMin.dll
