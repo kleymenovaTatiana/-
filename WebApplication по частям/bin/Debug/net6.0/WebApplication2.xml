@@ -4,6 +4,9 @@
         <name>WebApplication2</name>
     </assembly>
     <members>
+        <member name="P:WebApplication2.Contracts.Filter.CreateFilterRequest.Feed">
+            Создание
+        </member>
         <member name="M:WebApplication2.Controllers.BasketBuyerController.GetAll">
             <summary>
             Получение количества
