@@ -1,0 +1,24 @@
+﻿@page "/customers-list"
+@using DataAccess.Models;
+@inject ICustomerService CustomerService
+
+
+<h3>Список пользователей:</h3>
+
+@foreach (var customer in customers)
+{
+	<h3>Имя: @customer.Name</h3>
+	<p>Фамилия: @customer.Surname</p>
+	<p>Почта: @customer.Mail</p>
+	<p>Телефон: @customer.PhoneNumber</p>
+	<hr />
+}
+
+@code {
+	private List<Customer> customers = new List<Customer>(); 
+
+	protected override async Task OnInitializedAsync()
+	{
+		customers = await CustomerService.GetAll();
+	}
+}
