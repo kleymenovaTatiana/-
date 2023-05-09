@@ -1,0 +1,82 @@
+h1 {
+    color: #2F4F4F;
+}
+
+p {
+    color: #2F4F4F;
+    font-size: 23px;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: url('https://media.istockphoto.com/id/1310156047/ru/видео/фон-животных-отпечатки-лап.jpg?s=640x640&k=20&c=cjhBGYLw6wzd_Fk8bEZ4_fTNO1GzZLGPKshCseZXE_8=');
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333 ;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.fakeimg {
+    width: 100%;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.side {
+
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
