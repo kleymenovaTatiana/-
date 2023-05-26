@@ -43,3 +43,18 @@ C:\Users\user\Desktop\Практика\WebApplication2\BusinessLogic\obj\Debug\n
 C:\Users\user\Desktop\Практика\WebApplication2\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
 C:\Users\user\Desktop\Практика\WebApplication2\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
 C:\Users\user\Desktop\Практика\WebApplication2\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+I:\Практика дома\WebApplication2\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+I:\Практика дома\WebApplication2\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+I:\Практика дома\WebApplication2\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+I:\Практика дома\WebApplication2\BusinessLogic\bin\Debug\net6.0\Domain.dll
+I:\Практика дома\WebApplication2\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+I:\Практика дома\WebApplication2\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+I:\Практика дома\WebApplication2\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+I:\Практика дома\WebApplication2\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+I:\Практика дома\WebApplication2\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+I:\Практика дома\WebApplication2\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+I:\Практика дома\WebApplication2\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+I:\Практика дома\WebApplication2\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+I:\Практика дома\WebApplication2\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+I:\Практика дома\WebApplication2\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+I:\Практика дома\WebApplication2\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll

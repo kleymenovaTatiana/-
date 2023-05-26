@@ -53,6 +53,11 @@ namespace BusinessLogic.Services
             _repositoryWrapper.Customer.Delete(Customer.First());
             _repositoryWrapper.Save();
         }
+        public async Task<Customer> Login(string mail, string password) 
+        {
+            var customer = await _repositoryWrapper.Customer.GetByEmailAndPassword(mail, password); 
+            return customer;
+        }
     }
 }
 
