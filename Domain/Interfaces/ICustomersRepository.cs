@@ -10,5 +10,6 @@ namespace Domain.Interfaces
 {
     public interface ICustomersRepository : IRepositoryBase<Customer>
     {
+        public Task<Customer?> GetByEmailAndPassword(string mail, string password); 
     }
 }
