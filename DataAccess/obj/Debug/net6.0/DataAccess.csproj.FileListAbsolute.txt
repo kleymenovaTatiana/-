@@ -49,3 +49,20 @@ C:\Users\user\Desktop\Практика\WebApplication2\DataAccess\obj\Debug\net6
 C:\Users\user\Desktop\Практика\WebApplication2\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 C:\Users\user\Desktop\Практика\WebApplication2\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
 C:\Users\user\Desktop\Практика\WebApplication2\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+I:\Практика дома\WebApplication2\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+I:\Практика дома\WebApplication2\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+I:\Практика дома\WebApplication2\DataAccess\bin\Debug\net6.0\DataAccess.dll
+I:\Практика дома\WebApplication2\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+I:\Практика дома\WebApplication2\DataAccess\bin\Debug\net6.0\Domain.dll
+I:\Практика дома\WebApplication2\DataAccess\bin\Debug\net6.0\Domain.pdb
+I:\Практика дома\WebApplication2\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+I:\Практика дома\WebApplication2\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+I:\Практика дома\WebApplication2\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+I:\Практика дома\WebApplication2\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+I:\Практика дома\WebApplication2\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+I:\Практика дома\WebApplication2\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+I:\Практика дома\WebApplication2\DataAccess\obj\Debug\net6.0\DataAccess.dll
+I:\Практика дома\WebApplication2\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+I:\Практика дома\WebApplication2\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+I:\Практика дома\WebApplication2\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+I:\Практика дома\WebApplication2\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
