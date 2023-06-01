@@ -4,29 +4,165 @@
 @inject ICustomerService CustomerService
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
-
 <AuthorizeView>
 	<Authorized>
 		<h1>Welcome, @context.User.Identity.Name!</h1>
 	</Authorized>
-	<NotAuthorized>
-		<h1>Hello, young lady!</h1>
-	</NotAuthorized>
 </AuthorizeView>
 
-<AuthorizeView>
-	<Authorized>
-		<br /><br />
-		<button class="bth bth-outline-primary" @onclick="DisplayGreetingAlert">Greeting</button>
-	</Authorized>
-</AuthorizeView>
+<MudLayout>
+
+	<MudText Typo="Typo.h3" Align="Align.Center" GutterBottom="true">Товары</MudText>
+	<MudGrid Class="mt-8">
+		<MudItem xs="12" sm="6" md="4">
+			<MudCard Elevation="25" Class="rounded-lg pb-4">
+				<MudCardHeader>
+					<CardHeaderContent>
+						<MudText Typo="Typo.h5" Align="Align.Center">Корм для взрослых собак</MudText>
+					</CardHeaderContent>
+				</MudCardHeader>
+				<MudCardContent>
+					<div class="d-flex justify-center">
+						<MudText Typo="Typo.h3">$10</MudText>
+					</div>
+					<MudList Class="mx-auto mt-4" Style="width:300px;">
+						<MudListItem>
+							Состав
+							Ягненок (16%), пшеница (15%), сухой белок птицы, кукуруза, кукурузная крупа, белок кукурузы, животный жир, рис (4%), высушенная мякоть свеклы, гидролизат белка животного происхождения, минеральные вещества, рыбий жир, витамины, аминокислоты, антиоксиданты.
+						</MudListItem>
+					</MudList>
+				</MudCardContent>
+				<MudCardActions Class="d-flex justify-center">
+					<MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Style="width:50%;">Оформить</MudButton>
+				</MudCardActions>
+			</MudCard>
+		</MudItem>
+		<MudItem xs="12" sm="6" md="4">
+			<MudCard Elevation="25" Class="rounded-lg pb-4">
+				<MudCardHeader>
+					<CardHeaderContent>
+						<MudText Typo="Typo.h5" Align="Align.Center">Корм для кошек</MudText>
+					</CardHeaderContent>
+				</MudCardHeader>
+				<MudCardContent>
+					<div class="d-flex justify-center">
+						<MudText Typo="Typo.h3">$8</MudText>
+					</div>
+					<MudList Class="mx-auto mt-4" Style="width:300px;">
+						<MudListItem>
+							Состав
+							Мука из птицы (в том числе курица 20%), кукуруза, пшеница, белковый соевый концентрат, рис, животный жир и подсолнечное масло, бульон из продуктов животного происхождения, соль, минеральные вещества и витамины, дрожжи, высушенная мякоть сахарной свеклы, высушенный цикорий.
+						</MudListItem>
+					</MudList>
+				</MudCardContent>
+				<MudCardActions Class="d-flex justify-center">
+					<MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Style="width:50%;">Оформить</MudButton>
+				</MudCardActions>
+			</MudCard>
+		</MudItem>
+		<MudItem xs="12" sm="12" md="4">
+			<MudCard Elevation="25" Class="rounded-lg pb-4">
+				<MudCardHeader>
+					<CardHeaderContent>
+						<MudText Typo="Typo.h5" Align="Align.Center">Для золотых рыбок</MudText>
+					</CardHeaderContent>
+				</MudCardHeader>
+				<MudCardContent>
+					<div class="d-flex justify-center">
+						<MudText Typo="Typo.h3">$3</MudText>
+					</div>
+					<MudList Class="mx-auto mt-4" Style="width:300px;">
+						<MudListItem>
+							Состав: мелкие водные организмы (гаммарус, дафния и др.), зерновые, рыбная мука, спирулина, витаминный комплекс.
+						</MudListItem>
+					</MudList>
+				</MudCardContent>
+				<MudCardActions Class="d-flex justify-center">
+					<MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Style="width:50%;">Оформить</MudButton>
+				</MudCardActions>
+			</MudCard>
+		</MudItem>
+	</MudGrid>
+	<MudGrid>
+		<MudItem md="8" sm="12">
+			<MudPaper Class="pa-4"
+					  Elevation="2">
+				<div class="align-center d-flex"
+					 style="height: 60px">
+					<MudText Typo="Typo.h6">
+						Отзывы магазина
+					</MudText>
+				</div>
+				<MudList>
+					@foreach (var review in reviews)
+					{
+						<MudListItem>
+							<div class="align-center d-flex">
+								<div class="d-flex mr-6">
+									<MudAvatar Square="true"
+										   Variant="Variant.Outlined">
+										<MudIcon Icon="@Icons.Filled.Person2" />
+									</MudAvatar>
+									<MudText Class="ml-4" Typo="Typo.caption">@review.Name</MudText>
+								</div>
+								<MudRating @bind-SelectedValue="review.Rate" ReadOnly="true" />
+
+								<MudSpacer />
+								<div class="d-flex flex-column">
+
+									<MudText Typo="Typo.caption">
+										@($"{review.Text}")
+									</MudText>
+								</div>
+							</div>
+						</MudListItem>
+					}
+				</MudList>
+			</MudPaper>
+		</MudItem>
+		<MudItem md="4"
+				 sm="12">
+			<MudPaper Class="pa-4"
+					  Elevation="2">
+				<div class="align-center d-flex"
+					 style="height: 60px">
+					<MudText Typo="Typo.h6">
+						Лапка
+					</MudText>
+				</div>
+				Зоомагазин Лапка любит животных, практически у каждого из нас есть свои собаки, кошки, хомяки, кролики, морские свинки, шиншилы, хорьки, попугаи, рыбки...
+
+				Мы готовы делиться опытом и интересными новостями.
+
+				Мы всегда выполняем свои обязательства и рады сотрудничать с новыми партнерами.
+
+
+				Мы хотим стать лучше, открыты к диалогу и ждем обратной связи от наших клиентов.
+
+			</MudPaper>
+		</MudItem>
+	</MudGrid>
+</MudLayout>
 
 @code {
+
+	class Review
+	{
+		public string Name { get; set; }
+		public int Rate { get; set; }
+		public string Text { get; set; }
+	}
+
+	private List<Review> reviews = new List<Review>()
+	{
+		new Review(){ Name = "Анна", Rate = 5, Text = "Собаке нравится, проблем с желудком нет"},
+		new Review(){ Name = "Юлия", Rate = 5, Text = "Удобный формат упаковки, разные объемы"},
+		new Review(){ Name = "Анастасия", Rate = 5, Text = "Сбалансированный состав, удобная упаковка"},
+		new Review(){ Name = "Степан", Rate = 5, Text = "Кошке нравится и она хорошо себя чувствует"},
+		new Review(){ Name = "Тимофей", Rate = 5, Text = "Сбалансированный корм с витаминами и минералами"},
+		new Review(){ Name = "Николай", Rate = 5, Text = "Упаковка, качество состав корма"},
+	};
+
 	[CascadingParameter]
 	private Task<AuthenticationState> authenticationState { get; set; }
 

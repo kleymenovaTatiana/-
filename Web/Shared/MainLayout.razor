@@ -1,40 +1,214 @@
-﻿@using Web.Auth;
+﻿@using Blazored.LocalStorage;
+@using Web.Auth;
+@using Web.Models;
+@using Web.Shared.Themes
 @inherits LayoutComponentBase
 
 @inject AuthenticationStateProvider authStateProvider
 @inject NavigationManager navManager
+@inject IDialogService _dialogService
 
 <PageTitle>Web</PageTitle>
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-            <AuthorizeView>
-                <Authorized>
-                    <a @onclick="Logout" href="javascript:void(0)">Logout</a>
-                </Authorized>
-                <NotAuthorized>
-                    <a href="/login">login</a>
-                </NotAuthorized>
-            </AuthorizeView>
-        </div>
+<MudDialogProvider />
+<MudSnackbarProvider />
+<MudThemeProvider Theme="_theme"/>
 
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
-</div>
+<MudLayout>
+
+	<ThemesMenu @bind-ThemingDrawerOpen="_themingDrawerOpen"
+				ThemeManager="_themeManager"
+				ThemeManagerChanged="ThemeManagerChanged" />
+	<ThemesButton OnClick="@(() => _themingDrawerOpen = true)" />
+
+	<MudAppBar Elevation="0">
+
+		<MudIconButton Icon="@Icons.Material.Filled.Menu" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+
+		<MudSpacer />
+		<MudTooltip Arrow="true" Text="Navigate to GitHub">
+			<MudIconButton Class="mx-3" Color="Color.Default" Icon="@Icons.Custom.Brands.GitHub" Link="YOUR_LINK" Target="_blank" />
+		</MudTooltip>
+		<MudLink Class="ml-3" Href="https://docs.microsoft.com/aspnet/" target="_blank">About</MudLink>
+		<AuthorizeView>
+			<Authorized>
+				<MudMenu AnchorOrigin="Origin.BottomRight" Class="ml-3" LockScroll="true" 
+						 TransformOrigin="Origin.TopRight">
+					<ActivatorContent>
+						<MudAvatar Image="https://zabavniki.club/wp-content/uploads/best_profile_avatar_11_19135552-e1534687232482.jpg" />
+					</ActivatorContent>
+					<ChildContent>
+						<div class="py-4" 
+						     style="min-width: 220px">
+							<MudText Class="px-6 pb-2"
+									 Typo="Typo.body2">
+								@context.User.Identity.Name
+						    </MudText>
+							<MudText Class="px-6 pb-2"
+									 Typo="Typo.caption">
+								Пользователь
+							</MudText>
+							<MudDivider Class="my-2" />
+							<MudMenuItem>
+								<a href="/user/profile">
+									<div class="d-flex">
+										<MudIcon Class="mx-2" Icon="@Icons.Material.Filled.Person" />
+										<MudText>Профиль</MudText>
+									</div>
+								</a>
+							</MudMenuItem>
+							<MudMenuItem>
+								<div class="d-flex">
+									<MudIcon Class="mx-2"
+											 Icon="@Icons.Material.Filled.ShoppingCartCheckout" />
+									<MudText>Заказы</MudText>
+								</div>
+							</MudMenuItem>
+							<div class="mt-4 mx-4">
+								<MudButton Color="Color.Default" FullWidth="true" OnClick="Logout"
+										   StartIcon="@Icons.Material.Filled.Logout" Variant="Variant.Outlined">
+									Выйти
+								</MudButton>
+							</div>
+						</div>
+					</ChildContent>
+				</MudMenu>
+			</Authorized>
+			<NotAuthorized>
+				<MudLink Class="ml-3" Href="/login">Login</MudLink>
+			</NotAuthorized>
+		</AuthorizeView>
+	</MudAppBar>
+
+	<MudDrawer @bind-Open="_drawerOpen" Elevation="2">
+		<MudDrawerHeader Class="align-center d-flex justify-center pa-0">
+			<MudIcon Color="Color.Primary" Icon="@Icons.Custom.Brands.Linux" Size="Size.Large" />
+			<MudText>Интернет-зоомагазин Лапка</MudText>
+		</MudDrawerHeader>
+		<MudNavMenu>
+			<div class="ml-6 my-3">
+				<MudText Typo="Typo.caption">
+					Основной раздел
+				</MudText>
+			</div>
+			<MudNavLink Href="/" Icon="@Icons.Material.Filled.Home" Match="NavLinkMatch.All">
+				<div class="d-flex">
+					Home
+				</div>
+			</MudNavLink>
+			<AuthorizeView Roles="Administrator,User">
+				<Authorized>
+					<MudNavLink Href="counter" Icon="@Icons.Material.Filled.PlusOne" Match="NavLinkMatch.All">
+						Counter
+					</MudNavLink>
+					<MudNavLink Href="goods-list" Icon="@Icons.Material.Filled.Shop" Match="NavLinkMatch.All">
+						Goods List
+					</MudNavLink>
+				</Authorized>
+			</AuthorizeView>
+			<AuthorizeView Roles="Administrator">
+				<Authorized>
+					<MudNavLink Href="users-list" Icon="@Icons.Material.Filled.Person" Match="NavLinkMatch.All">
+						User List
+					</MudNavLink>
+				</Authorized>
+			</AuthorizeView>
+		</MudNavMenu>
+	</MudDrawer>
+
+	
+
+	<MudMainContent>
+		<MudContainer Class="mb-16 mt-4">
+			@Body
+		</MudContainer>
+	</MudMainContent>
+</MudLayout>
 
 @code {
-    private async Task Logout()
-    {
-        var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
-        await customAuthStateProvider.UpdateAuthenticationStateAsync(null);
-        navManager.NavigateTo("/", true);
-    }
+	bool _drawerOpen = true;
+
+	void DrawerToggle()
+	{
+		_drawerOpen = !_drawerOpen;
+	}
+
+	private async Task Logout()
+	{
+		var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
+		await customAuthStateProvider.UpdateAuthenticationStateAsync(null);
+		navManager.NavigateTo("/", true);
+	}
+
+	private readonly MudTheme _theme = new()
+		{
+			Palette = new PaletteLight
+			{
+				Primary = Colors.Green.Default,
+				AppbarBackground = "rgba(255,255,255,0.7)"
+			},
+			LayoutProperties = new LayoutProperties
+			{
+				AppbarHeight = "80px",
+				DefaultBorderRadius = "12px"
+			},
+			Typography = new Typography
+			{
+				Default = new Default
+				{
+					FontSize= "0.9rem",
+				}
+			}
+		};
+	private readonly PaletteDark _darkPalette = new()
+		{
+			Black = "#27272f",
+			Background = "rgb(21,27,34)",
+			BackgroundGrey = "#27272f",
+			Surface = "#212B36",
+			DrawerBackground = "rgb(21,27,34)",
+			DrawerText = "rgba(255,255,255, 0.50)",
+			DrawerIcon = "rgba(255,255,255, 0.50)",
+			AppbarBackground = "rgba(21, 27, 34, 0.7)",
+			AppbarText = "rgba(255,255,255, 0.70)",
+			TextPrimary = "rgba(255,255,255, 0.70)",
+			TextSecondary = "rgba(255,255,255, 0.50)",
+			ActionDefault = "#adadb1",
+			ActionDisabled = "rgba(255,255,255, 0.26)",
+			ActionDisabledBackground = "rgba(255,255,255, 0.12)",
+			Divider = "rgba(255,255,255, 0.12)",
+			DividerLight = "rgba(255,255,255, 0.06)",
+			TableLines = "rgba(255,255,255, 0.12)",
+			LinesDefault = "rgba(255,255,255, 0.12)",
+			LinesInputs = "rgba(255,255,255, 0.3)",
+			TextDisabled = "rgba(255,255,255, 0.2)"
+		};
+
+	private readonly PaletteLight _lightPalette = new() { };
+
+	private bool _themingDrawerOpen;
+
+	private bool _sideMenuDrawerOpen;
+
+	private void ToggleSideMenuDrawer()
+	{
+		_sideMenuDrawerOpen = !_sideMenuDrawerOpen;
+	}
+
+	private ThemeManagerModel _themeManager = new()
+		{
+			IsDarkMode = false,
+			PrimaryColor = Colors.Green.Default
+		};
+
+	private async Task ThemeManagerChanged(ThemeManagerModel themeManager)
+	{
+		_themeManager = themeManager;
+
+		_theme.Palette = _themeManager.IsDarkMode ? _darkPalette : _lightPalette;
+		_theme.Palette.Primary = _themeManager.PrimaryColor;
+	}
+
 }
+
